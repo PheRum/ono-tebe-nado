@@ -3,5 +3,5 @@
 https://github.com/PheRum/ono-tebe-nado
 
 ```bash
-$ git clone git@github.com:PheRum/ono-tebe-nado.git
+git clone git@github.com:PheRum/ono-tebe-nado.git
 ```
