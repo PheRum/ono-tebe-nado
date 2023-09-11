@@ -82,7 +82,7 @@
 .cover {
     position: relative;
     z-index: 1;
-    height: 763px;
+    height: 757px;
     background-image: url(./../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -227,12 +227,13 @@
 }
 
 .about {
-    margin: 181px 50px 367px;
+    margin: 181px 50px 184px;
 }
 
 .about__column {
     display: flex;
     align-items: start;
+    gap: 25px;
 }
 
 .about__logo-column {
@@ -282,10 +283,12 @@
 }
 
 .footer__address {
+    font-size: 18px;
     width: 33.3%;
 }
 
 .footer__menu {
+    font-size: 18px;
     width: 33.3%;
 }
 
