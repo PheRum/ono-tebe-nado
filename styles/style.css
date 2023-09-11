@@ -152,6 +152,79 @@
     letter-spacing: normal;
 }
 
+.lots {
+    padding: 180px 50px 0;
+}
+
+.lots__heading {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 40px 27px;
+    text-transform: uppercase;
+}
+
+.lots__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    gap: 25px;
+}
+
+.lots__card-list-item {
+    flex: 1 0 430px;
+    list-style: none;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    padding: 50px 40px;
+    color: #ffffff;
+    background-size: cover;
+}
+
+.card_type_film {
+    background-image: url(/images/card-lot-01.jpg);
+}
+
+.card_type_book {
+    background-image: url(/images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+    background-image: url(/images/card-lot-03.jpg);
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.card__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.lots__look-more-link {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 40px;
+}
+
 .footer {
     font-weight: 400;
     display: flex;
