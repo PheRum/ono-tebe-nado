@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    max-width: 1440px;
+    max-width: 1100px;
     min-height: 100vh;
     margin: 0 auto;
     background-color: #ffffff;
@@ -108,11 +108,16 @@
 }
 
 .bet-button {
+    font-family: Raleway, sans-serif;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
     width: 257px;
-    height: 52px;
+    min-height: 52px;
     margin: 0 0 0 78px;
+    cursor: pointer;
+    text-align: center;
     text-transform: uppercase;
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -146,7 +151,7 @@
 }
 
 .lots {
-    padding: 180px 50px 0;
+    padding: 180px 24px 0;
 }
 
 .lots__heading {
@@ -164,7 +169,7 @@
 }
 
 .lots__card-list-item {
-    flex: 1 0 430px;
+    flex: 1 0 334px;
     list-style: none;
 }
 
@@ -180,7 +185,7 @@
     align-items: start;
     flex-direction: column;
     justify-content: space-between;
-    height: 450px;
+    min-height: 563px;
     padding: 50px 40px;
     color: #ffffff;
     background-size: cover;
@@ -188,14 +193,17 @@
 
 .card_type_film {
     background-image: url(./../images/card-lot-01.jpg);
+    background-position: center center;
 }
 
 .card_type_book {
     background-image: url(./../images/card-lot-02.jpg);
+    background-position: center center;
 }
 
 .card_type_picture {
     background-image: url(./../images/card-lot-03.jpg);
+    background-position: center center;
 }
 
 .card__title {
@@ -220,19 +228,18 @@
 }
 
 .about {
-    margin: 181px 50px 184px;
+    margin: 181px 24px 184px;
 }
 
 .about__column {
     display: grid;
-    justify-items: center;
-    grid-template-columns: 430px 1fr;
-    gap: 25px;
+    grid-template-columns: 359px 1fr;
 }
 
 .about__logo {
     width: 240px;
     height: 240px;
+    margin: 0 47px;
     border-radius: 50%;
     background-color: #000000;
 }
@@ -255,12 +262,18 @@
 .about__text-description {
     display: flex;
     flex-direction: column;
+    max-width: 688px;
     gap: 25px;
 }
 
 .about__text {
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
 }
 
 .footer {
